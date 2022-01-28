@@ -1,0 +1,40 @@
+@font-face {
+    font-family: DMSans;
+    src: url('./assets/DMSans-Regular.ttf');
+}
+
+
+body {
+    color: rgb(48, 48, 48);
+    font-family: DMSans;
+}
+
+.main {
+    width: fit-content;
+    margin: auto;
+    top: 30vh;
+    position: relative;
+}
+
+.main__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__title {
+    color: #e64980;
+    font-size: 100px;
+    margin: 0;
+}
+
+.main__logo {
+    height: 130px;
+    width: 130px;
+    margin-left: 30px;
+}
+
+.main__subtitle {
+    text-align: center;
+}
